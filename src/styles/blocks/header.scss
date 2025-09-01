@@ -38,7 +38,7 @@
   margin: 0;
 }
 
-.nav-item {
+.nav-list__item {
   margin-right: 20px;
 
   &:first-child {
@@ -50,7 +50,7 @@
   }
 }
 
-.nav-link {
+.nav-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,9 +73,9 @@
   }
 }
 
-.nav-link.is-active {
+.nav-list__link.is-active {
   color: $light-blue;
-  position: relative; //  бо це новий клас
+  position: relative;
   bottom: 0;
 
   &::after {
